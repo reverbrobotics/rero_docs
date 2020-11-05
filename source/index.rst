@@ -6,6 +6,7 @@ Welcome to Reverb Robotics's documentation!
 	rero_overview
 	rero_speech_recognition
 	rero_nlu
+	rero_speech_synthesis
 	license
    	help
 
