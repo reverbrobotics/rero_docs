@@ -1,0 +1,24 @@
+title: "Reverb Robotics Documentation"
+description: "Documentation for the ReroCore speech interaction platform and the Rero ROS/ROS2 integration."
+theme: just-the-docs
+
+# If publishing from /docs on GitHub Pages:
+# baseurl: "/<your-repo-name>"
+# url: "https://<your-username>.github.io"
+
+search_enabled: true
+
+aux_links:
+  "Rero Core (source) on GitHub":
+    - "https://github.com/reverbrobotics/rero_core"
+  "Rero ROS on GitHub":
+    - "https://github.com/reverbrobotics/rero_ros"
+
+# Just the Docs options
+nav_enabled: true
+
+# Where docs live
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
