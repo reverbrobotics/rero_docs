@@ -6,34 +6,13 @@ nav_order: 7
 
 # ROS Integration
 
-Rero integrates with both **ROS1** and **ROS2** via dedicated packages.
+Rero integrates with **ROS 2** via a dedicated package.
 
-Before launching ROS nodes, ensure a `rero_server` instance is running and reachable at the host/port specified in `config.ini`.   
-
----
-
-## ROS1: using premade distributions
-
-On the premade distributions, Rero Core is configured to expose ROS1 launch files for speech recognition and NLU.
-
-Start the Rero Core server (or ensure the `rerocore` service is running), then:
-
-```bash
-roslaunch rero_ros speech_recognition.launch
-roslaunch rero_ros nlu.launch
-````
-
-Appending `&` to these commands keeps the ROS services running in the background while you keep using the same shell:
-
-```bash
-roslaunch rero_ros speech_recognition.launch &
-```
-
-Background processes must be stopped manually (`ps -a` + `kill <PID>`), or you can use `screen`/`tmux`. 
+Before launching ROS nodes, ensure a `rero_server` instance is running and reachable at the host/port specified in `config.ini`.
 
 ---
 
-## ROS2: building the `rero_ros` package
+## ROS 2: building the `rero_ros` package
 
 ### 1. Install gRPC
 
