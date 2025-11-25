@@ -6,6 +6,8 @@ theme: just-the-docs
 # baseurl: "/<your-repo-name>"
 # url: "https://<your-username>.github.io"
 
+url: https://reverbrobotics.github.io/rero_docs
+
 search_enabled: true
 
 aux_links:
