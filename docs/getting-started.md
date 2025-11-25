@@ -41,18 +41,6 @@ make
 sudo make install
 ```
 
-
-
-If you plan to **compile from source**, also install:
-
-```bash
-sudo apt-get install libasound2-dev libsndfile1-dev libsystemd-dev libcurl4-openssl-dev
-sudo apt-get install cmake cmake-curses-gui git git-lfs build-essential
-git lfs install
-```
-
-
-
 ---
 
 ## ROS 2 requirements
@@ -67,3 +55,4 @@ git lfs install
 ## Next steps
 
 * To install using prebuilt packages or images, see **[Installing Rero Core](./installing-rero-core)**.
+* Alternatively, if you are using the Rero Single Board Computer, you can skip to **[Setting Up the Rero Board](./setting-up-rero-board)**
