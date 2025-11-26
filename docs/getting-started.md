@@ -48,7 +48,7 @@ sudo make install
 * For **ROS 2 integration**, you need:
 
   * A ROS2 distribution (e.g., Humble/Foxy) with `colcon` installed.
-  * gRPC C++ installed and discoverable by CMake. 
+  * gRPC C++ installed and discoverable by CMake. The current version of gRPC used by Rero Core and Rero ROS is `v1.73.0`.
 
 ---
 

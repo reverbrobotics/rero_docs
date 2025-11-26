@@ -16,7 +16,7 @@ Before launching ROS nodes, ensure a `rero_server` instance is running and reach
 
 ### 1. Install gRPC
 
-Follow the official gRPC C++ quickstart to build and install gRPC to a prefix such as `~/grpc_install`. 
+Follow the official gRPC C++ quickstart to build and install gRPC to a prefix such as `~/grpc_install`. The current version of gRPC that is used for Rero Core and Rero ROS is `v1.73.0`. 
 
 ### 2. Build with `colcon`
 
