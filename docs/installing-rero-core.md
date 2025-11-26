@@ -11,7 +11,7 @@ You can install Rero Core in two main ways:
 1. **Using prebuilt distributables** (Ubuntu & Raspbian).  
 2. **Flashing the prebuilt Raspberry Pi image**.
 
-This step can also be skipped if using the Reverb Robotics single board computer which already has Rero Core preinstalled, and a system service that automatically starts Rero Core on boot up. To reconfigure Rero Core, see **[Configuration](./configuration)**.
+This step can also be skipped if using the Reverb Robotics single board computer which already has Rero Core preinstalled, and a system service that automatically starts Rero Core on boot up. For info on setting up the board, see **[Setting up the Rero Board](./setting-up-rero-board)**.
 
 ## Using prebuilt distributables
 
