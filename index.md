@@ -13,7 +13,7 @@ Rero Core is an end-to-end platform for human–robot speech interaction, provid
 - Text-to-speech (TTS)
 - Audio streaming and diagnostics
 
-The **Rero ROS / ROS2** packages wrap this functionality in ROS nodes and services so you can integrate speech into robotic systems with minimal boilerplate.
+The **Rero ROS 2** package wraps this functionality in ROS nodes and services so you can integrate speech into robotic systems with minimal boilerplate.
 
 ---
 
@@ -35,7 +35,7 @@ The **Rero ROS / ROS2** packages wrap this functionality in ROS nodes and servic
    - a Reverb Robotics single-board computer with Rero Core preinstalled
 3. **Start the `rero_server`** with your `config.ini`, or make sure system service is running on Rero Board. 
 4. **Test locally** with the CLI tools (speech recognition, NLU, TTS, audio player). 
-5. **Build and launch Rero ROS / ROS2** nodes (`roslaunch` / `ros2 launch`) to integrate with your robot.   
+5. **Build and launch Rero ROS 2** nodes (`roslaunch` / `ros2 launch`) to integrate with your robot.   
 
 Jump to **[Getting Started](./docs/getting-started)** to dive in.
 
